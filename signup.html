@@ -1,0 +1,84 @@
+<!-- register-form in html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico" />
+
+    <title>Donors info</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="text-center">
+    <!-- <body background="images/shot.png"> -->
+    <form action="/" class="form-signin" method="POST">
+      <!-- <div>
+      <img class="lituu" src="https://i.ibb.co/3NR1Wt6/litcheepeddy.png" alt="" width="72" height="72" margin="0">
+      <h4><strong>Litchy-is-He<strong></h4>
+    </div> -->
+      <img class="" src="images/newws.png" alt="" width="52" height="52" />
+      <h1 class="h3 mb-3 font-weight-normal"><strong>Contact info!</strong></h1>
+
+      <input
+        type="text"
+        name="fName"
+        class="form-control top"
+        placeholder="First Name"
+        required
+        autofocus
+      />
+      <input
+        type="text"
+        name="lName"
+        class="form-control middle"
+        placeholder="Last Name"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        class="form-control bottom"
+        placeholder="Email"
+        required
+      />
+      <label for="birthday"></label>
+      <!-- <input type="date" class="form-controls bottoms"
+        id="birthday" name="birthday"> -->
+
+      <script>
+        // Data Picker Initialization
+        $(".datepicker").datepicker({
+          inline: true,
+        });
+      </script>
+
+      <button class="btn btn-lg btn-info btn-block" type="submit">
+        Register
+      </button>
+      <p><strong>&copy; contact_form_web_app</strong></p>
+    </form>
+  </body>
+</html>
